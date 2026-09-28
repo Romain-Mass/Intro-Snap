@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	font-family: "Epilogue";
+}
+
+body {
+	height: 100vh;
+}
+
+h1 {
+	width: 50%;
+}
+
+.btnL,
+.btnR {
+	color: #686868;
+}
+
+.btnL {
+	background-color: white;
+	border: none;
+}
+
+.btnR {
+	background-color: white;
+	border: 1.5px solid #686868;
+	padding: 5px;
+    border-radius: ;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.featuress {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+a,
+.a {
+	color: #686868;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 60px;
+	gap: 10vw;
+}
+
+.main-left {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.btnLm {
+	width: 20%;
+}
